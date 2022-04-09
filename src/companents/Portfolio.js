@@ -10,9 +10,8 @@ export class Portfolio extends Component {
 		super(props);
 		this.state = {
 			selected: null,
-			category: null
-		}
 	}
+}
 
 	onSelectFilter = (filter) => this.setState({ selected: filter.name })
 
